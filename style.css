@@ -11,38 +11,3 @@
 .reveal{opacity:0;transform:translateY(26px);transition:opacity .75s ease,transform .75s ease}.reveal.is-visible{opacity:1;transform:translateY(0)}
 @media(max-width:800px){.nav{background:#faf9f6;box-shadow:0 12px 24px #00000012}}
 @media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none}}
-
-/* SIREN STUDIO - PROJECT CARD COLORS */
-
-/* 01 - ELIKS */
-.project-card:nth-child(1) .project-visual {
-  background: #D4A62C !important;
-  color: #111111 !important;
-}
-
-/* 02 - SOCIAL FIRST */
-.project-card:nth-child(2) .project-visual {
-  background: #C83F42 !important;
-  color: #FFF4DF !important;
-}
-
-/* 03 - FORM & FEEL */
-.project-card:nth-child(3) .project-visual {
-  background: #2855B8 !important;
-  color: #FFFFFF !important;
-}
-
-/* 04 - MAKE IT POP */
-.project-card:nth-child(4) .project-visual {
-  background: #ED792F !important;
-  color: #FFFFFF !important;
-}
-
-/* Make text inherit the new card color */
-.project-visual h2,
-.project-visual h3,
-.project-visual span,
-.project-visual p,
-.project-visual .project-title {
-  color: inherit !important;
-}
